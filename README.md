@@ -25,3 +25,6 @@ It all started with [this tweet](https://twitter.com/spazef0rze/status/439352552
 - Plaintext: [Tweet](https://twitter.com/spazef0rze/status/522882677452832768), [code](http://3v4l.org/K3ljr)
 - bcrypt: [code](https://3v4l.org/2qc8j)
 - PBKDF2: [Tweet by Christian "CodesInChaos" Winnerlein](https://twitter.com/CodesInChaos/status/422073818228613121), [as explained by Mathias Bynens](https://mathiasbynens.be/notes/pbkdf2-hmac), [code](https://3v4l.org/RROMo)
+
+### Links
+[Magic hashes](https://www.whitehatsec.com/blog/magic-hashes/)
