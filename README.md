@@ -2,7 +2,7 @@
 
 Register with *password 1* and then sign in with *password 2*. If you're in then the storage uses specified algorithm to hash the password and PHP uses `==` to compare them (for MD5, SHA-1, and plaintext).
 
-## [MD5](md5.md), [SHA-1](sha1.md) and [SHA-224](sha224.md)
+## [MD5](md5.md), [SHA-1](sha1.md), [SHA-224](sha224.md) and [SHA-256](sha256.md)
 For **MD5** and **SHA-1**, it uses the long-known trick (it actually is a documented feature, see [*PHP type comparison tables*](https://php.net/types.comparisons) & [*Floating point numbers*](https://php.net/types.float)) that for PHP `'0e1' == '00e2' == '0'`, it just uses it for *practical* purposes. Any password *matches* any other password from the list. This is a different trick than *integral strings overflowing into floating point numbers*, just spot the difference between [these two lines](https://3v4l.org/581R5).
 
 ## [Plaintext](plaintext.md)
